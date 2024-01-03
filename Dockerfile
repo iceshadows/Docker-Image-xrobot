@@ -1,8 +1,6 @@
 FROM registry.wearlab.tech/arm-compiler
 
 ARG DEBIAN_FRONTEND=noninteractive
-ARG HTTP_PROXY=192.168.1.19:7890
-ARG HTTPS_PROXY=192.168.1.19:7890
 LABEL maintainer="tech@wearlab.tech"
 LABEL description="This is a Docker Image for XRobot build."
 
